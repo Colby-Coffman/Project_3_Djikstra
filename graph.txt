@@ -1,0 +1,59 @@
+Nodes:
+College Square
+Lewis Science Center
+Speech Language Center
+Computer Science
+Burdick
+Prince Center
+Torreyson Library
+Maintanence College
+Old Main
+Police Department
+Fine Art Center
+McAlister Hall
+Student Center
+Wingo
+Student Health Center
+New Business Building
+Oak Tree Apartments
+Brewer-Hegeman
+Bearvillage Apartments
+
+Edges:
+ud; College Square, Prince Center: 300
+ud; College Square, Lewis Science Center: 200
+ud; Lewis Science Center, Computer Science: 150
+ud; Lewis Science Center, Speech Language Center: 250
+ud; Speech Language Center, Burdick: 100
+ud; Speech Language Center, Maintanence College: 120
+ud; Computer Science, Burdick: 30
+ud; Computer Science, Torreyson Library: 40
+ud; Computer Science, Prince Center: 80
+ud; Burdick, Maintanence College: 300
+ud; Burdick, McAlister Hall: 200
+ud; Burdick, Torreyson Library: 80
+ud; Prince Center, Torreyson Library: 30
+ud; Prince Center, Police Department: 100
+ud; Torreyson Library, Old Main: 30
+ud; Maintanence College, Oak Tree Apartments: 160
+ud; Maintanence College, New Business Building: 150
+ud; Maintanence College, Wingo: 100
+ud; Maintanence College, McAlister Hall: 150
+ud; McAlister Hall, Wingo: 50
+ud; McAlister Hall, Student Center: 100
+ud; McAlister Hall, Fine Art Center: 180
+ud; McAlister Hall, Old Main: 100
+ud; Old Main, Fine Art Center: 90
+ud; Old Main, Police Department: 200
+ud; Police Department, Fine Art Center: 50
+ud; Police Department, Student Health Center: 100
+ud; Fine Art Center, Student Center: 80
+ud; Wingo, New Business Building: 50
+ud; Wingo, Student Center: 100
+ud; Student Center, New Business Building: 110
+ud; Student Center, Student Health Center: 50
+ud; Oak Tree Apartments, Brewer-Hegeman: 40
+ud; Oak Tree Apartments, New Business Building: 30
+ud; New Business Building, Brewer-Hegeman: 20
+ud; Student Health Center, Brewer-Hegeman: 200
+ud; Brewer-Hegeman, Bearvillage Apartments: 350
