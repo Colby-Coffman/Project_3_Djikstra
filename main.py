@@ -16,17 +16,11 @@ if __name__ == "__main__":
         except KeyError:
             print("Start location not on campus\n")
             continue
-        # if str(start_node).upper() not in map(lambda x: str(x).upper(), graph):
-        #     print("Start location not on campus\n")
-        #     continue
         try:
             end_node = node_name_table[input("Choose a end location: ").upper()]
         except KeyError:
             print("End location not on campus")
             continue
-        # if str(end_node).upper() not in map(lambda x: str(x).upper(), graph):
-        #     print("End location not on campus")
-        #     continue
         print("\nPath algorithms available:\nDijkstras\nBellam-Ford")
         path_algorithm = input("Choose a path algorithm: ").upper()
         path_info = None
